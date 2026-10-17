@@ -43,5 +43,8 @@ Use public pages only (no logins), a small number of requests and your own busin
 GoLogin's terms limit Web Unlocker to your own internal business use, so run this for yourself and do not resell it as a service.
 Not legal advice. For your own Amazon listings there is also an official API.
 
+## Terms and disclaimer
+Read [TERMS.md](TERMS.md). The software is provided as is, without warranty, and you use it at your own risk.
+
 ## License
 MIT

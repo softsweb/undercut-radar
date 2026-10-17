@@ -1,0 +1,21 @@
+# Copy to radar.toml and edit. One [[product]] per thing you sell; one [[product.competitor]] per page to watch.
+[settings]
+use_ai = false              # true = AI fallback for pages the ordinary parser cannot read (needs ANTHROPIC_API_KEY in .env)
+ntfy_topic = ""             # free push alerts: pick a private topic name and subscribe to it at ntfy.sh
+desktop_notify = true
+delay_seconds = 3.0         # polite gap between requests
+
+[[product]]
+name = "Wireless Earbuds"
+my_price = 199.00
+floor = 180.00              # the radar will NEVER suggest a price below this
+
+  [[product.competitor]]
+  name = "NorthPeak Store"
+  url = "https://www.example.com/product/123"
+  shipping = 0.0
+
+  [[product.competitor]]
+  name = "BrightMart"
+  url = "https://www.example.org/item/456"
+  shipping = 5.99

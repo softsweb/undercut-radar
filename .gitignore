@@ -1,0 +1,6 @@
+.env
+data/
+demo_board.html
+radar.toml
+__pycache__/
+*.pyc
